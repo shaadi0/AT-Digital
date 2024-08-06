@@ -1,0 +1,139 @@
+
+
+.navbar {
+  background-color: #6B3CC9;
+  max-height: 77px;
+  justify-self: space-between;
+}
+
+.navbar-optionbar {
+  tab-size: 14px;
+  /* font-weight: 500; */
+  margin-top: 5px;
+}
+
+.text-companyname {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+
+
+.image {
+  height: 50%;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-div {
+  display: block;
+  height: auto;
+  z-index: 0;
+  padding: 15px 40px 32px 40px;
+  position: absolute;
+  font-size:42px;
+  background: linear-gradient(to left, #1CBDDD, #4DCA79);
+}
+
+@media only screen and (max-width: 768px) {
+  .image-div {
+    font-size: 30px;
+  }
+}
+
+.button {
+  height: 38px;
+  font-size:14px;
+  padding: 8px 20px 12px 20px;
+  background-color: #F28D35;
+  border-radius: 4px;
+  ;
+}
+
+
+.subarea{
+  max-width: 1064px;
+  /* gap: 108px; */
+}
+
+.head {
+  color: #6B3CC9;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.paragraph {
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+.image-sub {
+  min-width: 275px;
+}
+
+
+
+.footer {
+  background-color: #6B3CC9;
+  padding: 40px 80px 20px 80px;
+}
+
+.text-paragraph {
+  max-width: 414px;
+}
+
+.footer-subhead {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+
+
+.question-area {
+  max-width: 1224px;
+  background-color: #FAF8FF;
+}
+
+.question-title {
+ font-size: 22px;
+ /* color: #6B3CC9; */
+}
+
+.question-description {
+  font-weight: 400;
+  font-size: 18px;
+  color: #6F6C90;
+  ;
+}
+
+
+
+.modal {
+  display: none; 
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 77px;
+  width: 250px;
+  height: auto;
+  box-shadow: 5px 5px var(--bg-yellow-gold);
+  background-color: white;
+  color: black;
+  padding: 20px;
+}
+
+
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
